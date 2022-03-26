@@ -1,0 +1,31 @@
+:root {
+
+    --bg-bcblack: #141414;
+    --bg-bcwhite: #f7f7f7;
+
+    --bg-lfwhite: #f7f7f742;
+
+    --bg-colorb: #141414;
+    --bg-colorw: #f7f7f7;
+
+    --bg-colorb1: #228f24;
+
+    --fw-w500: 500;
+    --fw-w600: 600;
+    --fw-w700: 700;
+    --fw-w800: 800;
+
+    --ff-roboto: 'Roboto', sans-serif;
+    --ff-mono: 'Red Hat Mono', monospace;
+    --ff-josefin: 'Josefin Sans', sans-serif;
+    --ff-india: 'Indie Flower', cursive;
+
+}
+
+body {
+    background-color: var(--bg-bcblack);
+    text-decoration: none;
+    color: var(--bg-colorw);
+    font-family: var(--ff-roboto);
+}
+
