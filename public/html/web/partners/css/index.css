@@ -3,6 +3,8 @@
     --bg-bcblack: #141414;
     --bg-bcwhite: #f7f7f7;
 
+    --div-bcwhite: #f7f7f70a;
+
     --bg-lfwhite: #f7f7f742;
 
     --bg-colorb: #141414;
@@ -27,5 +29,41 @@ body {
     text-decoration: none;
     color: var(--bg-colorw);
     font-family: var(--ff-roboto);
+    overflow: hidden;
+}
+
+
+div {
+    width: 360px;
+    height: 160px;
+    float: right;
+    margin-right: 800px;
+    margin-top: 400px;
+    border-radius: 20px;
+    background-color: var(--div-bcwhite);
+}
+
+h1 {
+    font-size: 17px;
+    font-family: var(--ff-mono);
+    text-align: center;
+
+}
+
+img {
+    border-radius: 30px;
+    float: right;
+    margin-right: 150px
+}
+
+a {
+    padding: 8px 60px;
+    border-radius: 10px;
+    background-color: #37bc4d;
+    float: right;
+    margin-right: 100px;
+    text-decoration: none;
+    color: var(--bg-colorb);
+    font-weight: 600;
 }
 
